@@ -1,27 +1,29 @@
 .cards {
   border: 30px solid rgb(184, 34, 34);
   display: flex;
-justify-content: space-between;
-   
+  justify-content: space-around;
+  padding: 20px;
 }
-.img  {
- display: flex;
+
+.img {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
   border: 30px solid rgb(184, 34, 34);
-  
 }
 
 h1 {
   text-align: center;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
 }
 
 @media (max-width: 460px) {
-    h1 {
-      font-size: 3.5rem;
-      line-height: 1.2;
-    }
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
   }
+}
