@@ -1,0 +1,27 @@
+.cards {
+  border: 30px solid rgb(184, 34, 34);
+  display: flex;
+justify-content: space-between;
+   
+}
+.img  {
+ display: flex;
+  border: 30px solid rgb(184, 34, 34);
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
