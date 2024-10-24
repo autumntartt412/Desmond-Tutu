@@ -8,7 +8,7 @@
 .navbar {
   border: 5px solid rgb(184, 34, 34);
   font: red;
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 .card {
@@ -36,6 +36,15 @@ h1 {
   transition-property: font-size;
   transition-duration: 2s;
   border: 50px dashed;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: solid 2px rgb(209, 37, 37);
+  background-color: black;
 }
 
 h1:hover {
