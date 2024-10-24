@@ -3,6 +3,11 @@ form {
   border: 30px solid rgb(184, 34, 34);
 }
 
+.navbar {
+  border: 5px solid rgb(184, 34, 34);
+  font: red;
+  font-weight: bolder;
+}
 
 
 .tribs-main {

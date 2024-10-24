@@ -5,6 +5,23 @@
   padding: 20px;
 }
 
+.navbar {
+  border: 5px solid rgb(184, 34, 34);
+  font: red;
+  font-weight: bolder;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+   padding: 30px solid red;
+   background-color: aliceblue;
+   border: 25px solid black;
+   /* align-items: center; */
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color: blue;
+}
 .img {
   display: flex;
   justify-content: space-around;
